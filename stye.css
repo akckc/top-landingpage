@@ -6,8 +6,7 @@ body{
 ul{
     display: flex;
     list-style-type: none;
-    gap: 10px;
-    border: 1px solid white;
+    gap: 25px;
     margin: 0;
     padding: 0;
     
@@ -30,6 +29,7 @@ ul{
     display: flex;
     padding: 5% 20%;
     justify-content: space-between;
+    align-items: center;
 }
 
 h1{
@@ -46,12 +46,16 @@ h1{
 .signup-img{
     color: #e5e7eb;
     width: 33%;
+    height: 250px;
+    width: auto;
+    border: none;
+    border-radius: 0%;
 }
 button{
     background-color: #3882f6;
     color: #efe7eb;
     font-weight: bold;
-    border-radius: 10%;
+    border-radius: 25px;
     padding: 3px 12px;
 }
 
@@ -69,6 +73,7 @@ button{
 
 h2{
     text-justify: center;
+    margin-top: 8%;
 }
 .info{
     display: flex;
@@ -76,6 +81,7 @@ h2{
     align-items: center;
     padding: 15px;
     gap:100px;
+    
     
 }
 
@@ -85,6 +91,7 @@ h2{
     width: 200px;
     align-items: center;
     text-align: center;
+    margin-bottom: 8%;
 }
 
 img {
@@ -92,8 +99,13 @@ img {
     height: 100px;
     border: 2px blue solid;
     border-radius: 20%;
+    /*Image by <a href=
+    "https://pixabay.com/users/chrisstenger-19376416/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5800386">
+    Chris Stenger</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5800386">
+    Pixabay</a>*/
     
 }
+
 .quote-section{
     display: flex;
     flex-direction: column;
